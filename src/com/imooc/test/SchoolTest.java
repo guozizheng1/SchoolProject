@@ -19,7 +19,11 @@ public class SchoolTest {
 		System.out.println("===========================");
 		Student stu3 = new Student("S03","王五","男", 19);
 		System.out.println(stu3.introduction(sub1));
-		
+		//测试指定专业中到底有多少学生报名
+		sub1.addStudent(stu1);
+		sub1.addStudent(stu2);
+		//sub1.addStudent(stu3);
+		System.out.println(sub1.getSubjectName() + "的专业中已有" + sub1.getStudentNum() + "学生进行了报名");
 	}
 
 }
