@@ -11,7 +11,7 @@ public class SchoolTest {
 		System.out.println(sub1.info());
 		System.out.println("===========================");
 		//测试student
-		Student stu1 = new Student("S01", "张三", "女", 18, sub1);
+		Student stu1 = new Student("S01", "张三", "女", 18);
 		System.out.println(stu1.introduction());
 		System.out.println("===========================");
 		Student stu2 = new Student("S02", "李四", "男", 20);

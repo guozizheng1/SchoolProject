@@ -94,6 +94,7 @@ public class Subject {
 		//将学生保存找到数组中
 		for(int i =0; i<getMyStudents().length; i++) {
 			if(this.getMyStudents()[i]==null) {
+				stu.setStudentSubject(this);
 				this.getMyStudents()[i] = stu;
 				//将学生个数保存到studentNum中
 				this.studentNum = i + 1;
